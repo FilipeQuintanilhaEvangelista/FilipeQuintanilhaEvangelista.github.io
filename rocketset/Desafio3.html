@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Desafio 3</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../style/estilo.css">
+</head>
+<body>
+  <h1 class="enunc">3 - Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade "Javascript"
+    e retorna um booleano true/false caso exista ou não.</h1>
+<h1 class="enunc">var skills = ["Javascript", "ReactJS", "React Native"];</h1>  
+  
+  <p id="msg"></p>
+    
+</body>
+
+<script>
+  var skills = ["Javascript", "ReactJS", "React Native"];
+  
+  function temHabilidade(habi) {
+    
+    if(habi.indexOf("Javascript")==-1){
+          return false
+      }
+      else{
+        
+        return true
+      }
+}
+  
+  
+  resultado = temHabilidade(skills);
+  document.getElementById("msg").innerHTML = resultado; 
+  
+ 
+
+</script>
+
+</html>

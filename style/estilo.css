@@ -1,0 +1,88 @@
+a{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+ul > li{
+    list-style: none;
+}
+.button {
+    background-color: #5c29af;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+    background-color: #5c29af;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+    display: block;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.retorno{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #5c29af; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.titulo {
+    background-color: #191970;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.coluna1
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 0% 0% 0% 10%;
+}
+
+.coluna2
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+
+
+form
+{
+    padding: 1% 0% 0% 10%;
+    font-size: 15px;
+}
+
+p
+{
+    padding: 1% 0% 0% 10%;
+    font-size: 15px;
+}
+.enunc{
+    padding: 1% 0% 0% 10%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
