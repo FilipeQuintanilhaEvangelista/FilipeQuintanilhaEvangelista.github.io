@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="../style/estilo.css">
+<script>
+function terceiraQuestao ()
+{
+	var nomes = ["Diego", "Gabriel", "Lucas"];
+    var elemento = document.createElement('ul');
+	elemento.style.display = 'inline-block';
+	for (i of nomes) 
+	{
+      var acrescentarli = document.createElement('li');
+      var texto = document.createTextNode(i);
+
+      acrescentarli.appendChild(texto);
+      elemento.appendChild(acrescentarli);
+	}
+
+	var resultado = document.getElementById('teste2');
+	resultado.appendChild(elemento);
+
+
+}
+</script>
+</head>
+<body>
+
+<h1> Exercício 03</h1>
+<button onclick="terceiraQuestao();">Executar</button>
+<ul id="teste2">
+
+</ul>
+
+	
+</body>
+</html>

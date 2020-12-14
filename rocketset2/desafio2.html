@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="../style/estilo.css">
+<script>
+ function quadradoColorido()
+{
+	var quadrados = document.createElement('div');
+	quadrados.style.width = '100px';
+	quadrados.style.height = '100px';
+	quadrados.style.backgroundColor = '#FF0000';
+	quadrados.style.marginBottom = '1px'
+	quadrados.style.display = 'inline-block';
+	var resultado = document.getElementById('teste');
+	quadrados.onmouseover = function() {
+        quadrados.style.backgroundColor = getRandomColor();
+      } 
+	resultado.appendChild(quadrados);
+}
+
+function getRandomColor() {
+	var letters = '0123456789ABCDEF';
+	var color = '#';
+	for (var i = 0; i < 6; i++) {
+	  color += letters[Math.floor(Math.random() * 16)];
+	}
+	return color;
+}
+</script>
+</head>
+<body>
+
+<h1>Exercício 02</h1>
+<button onclick="quadradoColorido();">Criar Quadrados</button>	
+<br>
+<div id= 'teste'>
+
+</div>
+	
+</body>
+</html>
